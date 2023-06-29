@@ -38,7 +38,7 @@ export default function WeatherCard(props) {
         >
             <Grid item sx={12} md={12}>
                 <Typography gutterBottom variant="h4" component="div">
-                    {weather.name}, {weather.region}, {weather.country}
+                    {weather.name}, {weather.country}
                 </Typography>
             </Grid>
 
