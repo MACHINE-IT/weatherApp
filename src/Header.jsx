@@ -21,7 +21,7 @@ export default function Header(props) {
     const locationChangeHandler = (e) => {
         const searchValue = e;
         setLocation(searchValue);
-    };
+    }; //onchange
 
     return (
         <Box fullWidth>
